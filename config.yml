@@ -30,21 +30,33 @@ galaxy_arms:
       - Dockerfile
 
 projects:
-  - repo: NaUVie/NaUVie
+  - repo: NaUVie/InNhanhTYD
     arm: 0
-    description: My Awesome GitHub Profile
-    
-  # ⚠️ LƯU Ý CỰC KỲ QUAN TRỌNG: 
-  # Bạn PHẢI sửa chữ "elderly-care-aiot" và "clickin-printing" ở 2 dòng dưới 
-  # thành TÊN REPO THẬT của bạn trên GitHub nhé. Nếu chưa có, hãy xóa tạm 2 cục này đi.
-  # (Nếu để tên repo không tồn tại, tool sẽ lại báo lỗi exit code 1 như lúc nãy đó!)
-  - repo: NaUVie/elderly-care-aiot
-    arm: 1
-    description: AI-driven monitoring system for seniors
-    
-  - repo: NaUVie/clickin-printing
-    arm: 2
     description: Commercial printing service website
+    
+  - repo: NaUVie/In_Song_Tao_Frontend
+    arm: 1
+    description: Printing service frontend application
+    
+  - repo: NaUVie/In_Song_Tao_Backend
+    arm: 2
+    description: Printing service backend API
+    
+  - repo: NaUVie/TrieuCMS
+    arm: 0
+    description: Custom content management system
+    
+  - repo: NaUVie/WebProfileMrTuan
+    arm: 1
+    description: Portfolio website project
+    
+  - repo: NaUVie/Fpoly_AutoCreateVideo
+    arm: 2
+    description: Automated video creation tool
+    
+  - repo: NaUVie/HITC-CTHSSV
+    arm: 0
+    description: College student portal project
 
 stats:
   metrics:
