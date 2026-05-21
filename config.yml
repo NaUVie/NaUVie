@@ -14,26 +14,37 @@ galaxy_arms:
   - name: Front-end
     color: synapse_cyan
     tech:
-      - Vue.js
-      - React Native
-      - HTML5 & CSS3
-  - name: Back-end
+      - Vue
+      - JavaScript
+      - CSS
+      - HTML
+  - name: Back-end (Supporting)
     color: dendrite_violet
     tech:
-      - FastAPI
+      - Java
       - Python
-      - Spring Boot
   - name: Game & Tools
     color: axon_amber
     tech:
-      - Unity
-      - WordPress
-      - Git
+      - C#
+      - Dockerfile
 
 projects:
   - repo: NaUVie/NaUVie
     arm: 0
     description: My Awesome GitHub Profile
+    
+  # ⚠️ LƯU Ý CỰC KỲ QUAN TRỌNG: 
+  # Bạn PHẢI sửa chữ "elderly-care-aiot" và "clickin-printing" ở 2 dòng dưới 
+  # thành TÊN REPO THẬT của bạn trên GitHub nhé. Nếu chưa có, hãy xóa tạm 2 cục này đi.
+  # (Nếu để tên repo không tồn tại, tool sẽ lại báo lỗi exit code 1 như lúc nãy đó!)
+  - repo: NaUVie/elderly-care-aiot
+    arm: 1
+    description: AI-driven monitoring system for seniors
+    
+  - repo: NaUVie/clickin-printing
+    arm: 2
+    description: Commercial printing service website
 
 stats:
   metrics:
@@ -41,3 +52,4 @@ stats:
     - stars
     - prs
     - issues
+    - repos
