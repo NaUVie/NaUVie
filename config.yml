@@ -1,0 +1,42 @@
+profile:
+  username: NaUVie
+  name: La Quang Trieu
+  tagline: Front-end Developer | Crafting seamless & responsive UIs
+  company: Student at HITU
+  location: Vietnam 🇻🇳
+
+social:
+  email: your.email@example.com
+  linkedin: YOUR_LINKEDIN_USERNAME
+
+galaxy_arms:
+  - name: Front-end
+    color: synapse_cyan
+    tech:
+      - Vue.js
+      - React Native
+      - HTML5 & CSS3
+  - name: Back-end
+    color: dendrite_violet
+    tech:
+      - FastAPI
+      - Python
+      - Spring Boot
+  - name: Game & Tools
+    color: axon_amber
+    tech:
+      - Unity
+      - WordPress
+      - Git
+
+projects:
+  - repo: NaUVie/NaUVie
+    arm: 0
+    description: My Awesome GitHub Profile
+
+stats:
+  metrics:
+    - commits
+    - stars
+    - prs
+    - issues
